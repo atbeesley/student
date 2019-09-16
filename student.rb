@@ -30,5 +30,3 @@ def say_favourite_language(student, language)
 end
 
 end
-
-#

@@ -14,4 +14,11 @@ team_players = Team.new["Fred", "Bob", "Fish"]
 assert_equal(["Fred", "Bob", "Fish"], team.get_team_players)
 end
 
+def test_set_coach_name
+  coach = Team.new("Pig")
+  student.set_student_name("Pig")
+  assert_equal("Pig", student.get_coach_name)
+end
+
+
 end
