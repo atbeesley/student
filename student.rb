@@ -1,4 +1,5 @@
 class Student
+
 def initialize(name, cohort)
   @name = name
   @cohort = cohort
@@ -30,14 +31,4 @@ end
 
 end
 
-class Team
-
-  def initialize
-
-    @team = team
-    @players = players
-    @coach = coach
-
-  end
-
-end 
+#

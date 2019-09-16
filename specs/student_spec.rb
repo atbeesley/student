@@ -28,14 +28,18 @@ end
 
 def test_student_talk
   student = Student.new("Fish", "F23")
-#  student.student_talk(student, "F23", "I can talk")
   assert_equal("I can talk", student.student_talk)
 end
 
 def test_say_favourite_language
   student = Student.new("Fish", "F23")
 
-  assert_equal("Fish loves Fishscript", student.say_favourite_language("Fish","Fishscript"))
+  assert_equal("Fish loves Fishscript", student.say_favourite_language("Fish", "Fishscript"))
+end
+
+def test_get_team_name
+  team = Team.new("Cobblers", "Northampton")
+  assert_equal("Cobblers", team.get_team_name)
 end
 
 end
