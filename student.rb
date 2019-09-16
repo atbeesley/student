@@ -29,3 +29,15 @@ def say_favourite_language(student, language)
 end
 
 end
+
+class Team
+
+  def initialize
+
+    @team = team
+    @players = players
+    @coach = coach
+
+  end
+
+end 
