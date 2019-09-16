@@ -20,4 +20,12 @@ def set_student_cohort(new_cohort)
   @cohort = new_cohort
 end
 
+def student_talk
+  return "I can talk"
+end
+
+def say_favourite_language(student, language)
+  return "#{student} loves #{language}"
+end
+
 end
